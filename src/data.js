@@ -1,0 +1,1 @@
+export const USERS_API = "https://66e87262b17821a9d9dcbf14.mockapi.io/users/registration"
