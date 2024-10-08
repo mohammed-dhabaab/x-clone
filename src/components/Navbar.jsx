@@ -54,13 +54,13 @@ function Navbar() {
     }
     return (
         <div className='flex flex-col gap-6 p-3'>
-            <Link to={"/"} className=''>
+            <Link to={"/home"} className=''>
                 <BsTwitterX size={30} className='text-white bg-dark-black fill-current ' />
             </Link>
 
             <nav className='flex flex-col gap-6'>
 
-                <Link className='flex items-center gap-3' to={"#"}>
+                <Link to={"/home"} className='flex items-center gap-3' to={"#"}>
                     <div><MdHomeFilled size={30} /></div>
                     <p className='hidden sm:inline-block text-[18px] font-bold'>Home</p>
                 </Link>
