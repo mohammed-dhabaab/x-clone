@@ -41,8 +41,8 @@ function Post({ user, setUser, tweet }) {
                 <div className='flex items-center justify-between gap-1'>
                     <div className='flex gap-2'>
                         <div className='flex gap-1'>
-                            <p className='text-sm'>{user.name}</p>
-                            <p className='text-sm text-light-gray'>@{user.username}</p>
+                            <p className='text-sm'>{tweet.name}</p>
+                            <p className='text-sm text-light-gray'>@{tweet.username}</p>
                             <p className='text-sm text-light-gray'>&bull;</p>
                             <p className='text-sm text-light-gray'>{moment(tweet.date).fromNow()}</p>
                         </div>
